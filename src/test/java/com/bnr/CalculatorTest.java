@@ -50,6 +50,11 @@ public class CalculatorTest
 	assertEquals(-4, calc.subtract(0,4));
     }
 
+    public void testBreak()
+    {
+	assertEquals(4, 3));
+    }
+
     // public void testSubtract2()
     // {
     // 	assertEquals(4, calc.subtract(6,1));
