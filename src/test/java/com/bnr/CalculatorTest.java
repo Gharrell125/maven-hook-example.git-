@@ -50,7 +50,7 @@ public class CalculatorTest
 	assertEquals(-4, calc.subtract(0,4));
     }
 
-    public void testBreak() { assertEquals(4, 3) ; } // mess with this to trigger hook
+    public void testBreak() { assertEquals(4, 4) ; } // mess with this to trigger hook
 
     // public void testSubtract2()
     // {
