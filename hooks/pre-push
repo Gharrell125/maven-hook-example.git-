@@ -1,0 +1,11 @@
+#!/bin/bash
+# save this as <git_directory>/.git/hooks/pre-commit.d/mvn_test and chmod +x
+# bnr - or .git/hooks/pre-commit and make executable with chmod +x
+ 
+echo "Running JUnit test..."
+
+MVN_RESULT=$(mvn clean test 2>&1)
+if [ $? -ne 0 ]; then
+echo "Tests failed, aborting push."
+exit 1
+fi
