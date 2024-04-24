@@ -40,7 +40,7 @@ public class CalculatorTest
 
     public void testAdd()
     {
-	    assertEquals(4, calc.add(2,2));
+	    assertEquals(6, calc.add(3,3));
     }
 
     public void testSubtract()
