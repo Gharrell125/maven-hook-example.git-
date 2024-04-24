@@ -40,21 +40,16 @@ public class CalculatorTest
 
     public void testAdd()
     {
-	assertEquals(4, calc.add(2,2));
+	    assertEquals(4, calc.add(2,2));
     }
 
     public void testSubtract()
     {
-	assertEquals(4, calc.subtract(6,2));
-	assertEquals(0, calc.subtract(2,2));
-	assertEquals(-4, calc.subtract(0,4));
+        assertEquals(4, calc.subtract(6,2));
+        assertEquals(0, calc.subtract(2,2));
+        assertEquals(-4, calc.subtract(0,4));
     }
 
-    public void testBreak() { assertEquals(4, 3) ; } // mess with this to trigger hook
-
-    // public void testSubtract2()
-    // {
-    // 	assertEquals(4, calc.subtract(6,1));
-    // }
+    public void testBreak() { assertEquals(4, 4) ; } // mess with this to trigger hook
 
 }

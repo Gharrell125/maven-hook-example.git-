@@ -1,2 +1,2 @@
 # 19FSE2
-Fall 2019 Software Engineering II
+Spring 2024 Software Engineering II
